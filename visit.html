@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
-    <meta name="description" content="">
+    <title>Community Science Museum - visit us</title>
+    <meta name="description" content="Visit our museum - the admission is free for all">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
   </head>
   <body>
     <header>
+      <a class="skip-main" href="#main">Skip to main content</a>
       <nav>
         <a href="index.html"><img src="logo/FullLogo.png" alt="logo home" class="logo"></a>
         <label for="toggle">&#9776;</label>
@@ -15,44 +16,53 @@
         <div class="menu">
             <a href="exhibitions.html">Exhibitions</a>
             <a href="events.html">Events</a>
-            <a href="visit.html">Visit</a>
+            <a href="visit.html" class="active">Visit</a>
             <img src="icons/search.png" id="icon">
         </div>
       </nav>
     </header>
     <main>
-        <h1>Visit Us</h1>
-        <div class="divider"></div>
+        <h1 id="main" tabindex="-1">Visit Us</h1>
+        <div class="divider-visit"></div>
         <div class="location">
-            <p>Location</p>
+            <p class="bold">Location</p>
             <p>You'll find us at Mølleparken 4, 0459 Oslo.</p>
             <div class="map"></div>
-            <p>Accessibility</p>
+            <p class="bold">Accessibility</p>
             <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</p>
         </div>
         <div class="more-info">
-            <div class="info">
-                <p>Hours</p>
+                <p class="bold">Hours</p>
                 <p>Monday: Closed</p>
                 <p>Tuesday - Thursday 10:00 – 16:00</p>
                 <p>Friday: 10:00 – 19:00</p>
                 <p>Saturday: 9:00 – 16:00</p>
                 <p>Sunday: 9:00 – 13:00</p>
-            </div>
-            <div class="info">
-                <p>Admission</p>
+                <p class="bold">Admission</p>
                 <p>The entrance is free for all</p>
-            </div>
-            <div class="info">
-                <p>Food and drink</p>
+                <p class="bold">Food and drink</p>
                 <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
-            </div>
-            <div class="info">
-                <p>Shop</p>
+                <p class="bold">Shop</p>
                 <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
-            </div>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="subscribe">
+        <h2>Subscribe</h2>
+        <p>to get updates on events and exhibitions</p>
+        <form>
+          <label for="email">Subscribe</label>
+          <input type="email" name="email" id="email" class="form_input">
+          <input type="submit" value="Submit" class="button">
+        </form>
+      </div>
+      <div class="social">
+        <div><a href="https://www.facebook.com/noroffoslo"><img src="/icons/facebook-circular-logo-2.png"></a></div>
+        <div><a href="https://www.instagram.com/noroff"><img src="/icons/instagram-2.png"></a></div>
+        <div><a href="https://www.youtube.com/c/NoroffAS"><img src="/icons/youtube-2.png"></a></div>
+        <p><a href="involved.html">Get Involved</a></p>
+        <p>&#169;Copyright</p>
+      </div>
+    </footer>
   </body>
 </html>
