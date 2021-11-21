@@ -25,6 +25,10 @@ h3 {
     clear: both;
 }
 
+h2 {
+    font-family: "Playfair Display";
+}
+
 .head {
     font-size: 3em;
     font-weight: bold;
@@ -241,7 +245,7 @@ label {
 
 .text-left {
     height: 100%;
-    width: 30%;
+    max-width: 30%;
     padding-top: 35px;
     padding-left: 12%;
     float: left;
@@ -412,7 +416,7 @@ input[type=submit] {
     }
 
     .photo-left {
-        padding-top:20px;
+        padding-top: 20px;
         width: 50%;
         height: 20%;
         margin: auto;
@@ -484,13 +488,6 @@ input[type=submit] {
     
     .event {
         width: 75%;
-        height: 200px;
-        margin: auto;
-        border: 1px solid #000;
-        position: relative;
-        margin-top: 20px ;
-        margin-bottom: 20px;
-        display: table;
     }
     
     .img {
@@ -500,7 +497,6 @@ input[type=submit] {
     }
     
     .text {
-        height: 100%;
         width: 100%;
         text-align: center;
         margin: auto;
@@ -509,15 +505,8 @@ input[type=submit] {
     .date {
         height: 75px;
         width: 75px;
-        border: 1px solid #000;
-        border-radius: 50%;
-        text-align: center;
-        background-color: #04A7CC;
-        z-index: 10;
-        position: absolute; 
         margin-top: 52%;
         margin-left: 80%;
-        box-sizing: border-box;
         padding-top: 20px;
     }
 }
